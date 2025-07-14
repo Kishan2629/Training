@@ -1,0 +1,13 @@
+trigers:
+- branches:
+    include:
+      - main
+pool:
+  vmImage: 'ubuntu-latest'
+script:
+- script: echo "Running training pipeline"
+  displayName: 'Run Training Script'
+- script: bash hello.sh
+  displayName: 'Run Hello Script'
+- script: echo "Training completed successfully!"
+  displayName: 'Completion Message'
