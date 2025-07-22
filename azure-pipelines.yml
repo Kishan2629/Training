@@ -1,13 +1,17 @@
-trigers:
-- branches:
+trigger:
+  branches:
     include:
       - main
+
 pool:
   name: Default
-script:
+
+steps:
 - script: echo "Running training pipeline"
   displayName: 'Run Training Script'
+
 - script: bash hello.sh
   displayName: 'Run Hello Script'
+
 - script: echo "Training completed successfully!"
   displayName: 'Completion Message'
