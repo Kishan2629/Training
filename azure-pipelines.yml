@@ -1,7 +1,7 @@
 trigers:
 - branches:
     include:
-      - main
+      #- main
       - kishan_testing
 pool:
   name: Default
