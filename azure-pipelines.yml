@@ -2,7 +2,6 @@ trigers:
 - branches:
     include:
       - main
-      - kishan_testing
 pool:
   name: Default
 script:
