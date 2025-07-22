@@ -2,6 +2,7 @@ trigers:
 - branches:
     include:
       - main
+      - kishan_testing
 pool:
   vmImage: 'ubuntu-latest'
 script:
