@@ -4,7 +4,7 @@ trigers:
       - main
       - kishan_testing
 pool:
-  vmImage: 'ubuntu-latest'
+  name: Default
 script:
 - script: echo "Running training pipeline"
   displayName: 'Run Training Script'
